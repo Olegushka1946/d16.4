@@ -1,0 +1,64 @@
+ERROR 2023-11-12 20:39:05,216  Internal Server Error: /sign/upgrade/ C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\log.py, (<class 'django.contrib.auth.models.Group.DoesNotExist'>, DoesNotExist('Group matching query does not exist.'), <traceback object at 0x000002836F68BEC0>)
+Traceback (most recent call last):
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Танюша\NewProject\newspaper\sign\views.py", line 18, in upgrade_me
+    premium_group = Group.objects.get(name='authors')
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+ERROR 2023-11-12 20:39:05,222  "GET /sign/upgrade/ HTTP/1.1" 500 86261 C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\servers\basehttp.py, None
+ERROR 2023-11-12 20:39:15,368  Internal Server Error: /sign/upgrade/ C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\log.py, (<class 'django.contrib.auth.models.Group.DoesNotExist'>, DoesNotExist('Group matching query does not exist.'), <traceback object at 0x000002836F360BC0>)
+Traceback (most recent call last):
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Танюша\NewProject\newspaper\sign\views.py", line 18, in upgrade_me
+    premium_group = Group.objects.get(name='authors')
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+ERROR 2023-11-12 20:39:15,371  "GET /sign/upgrade/ HTTP/1.1" 500 86261 C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\servers\basehttp.py, None
+ERROR 2023-11-12 20:39:16,702  Internal Server Error: /sign/upgrade/ C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\log.py, (<class 'django.contrib.auth.models.Group.DoesNotExist'>, DoesNotExist('Group matching query does not exist.'), <traceback object at 0x000002836F4A9340>)
+Traceback (most recent call last):
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Танюша\NewProject\newspaper\sign\views.py", line 18, in upgrade_me
+    premium_group = Group.objects.get(name='authors')
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+ERROR 2023-11-12 20:39:16,706  "GET /sign/upgrade/ HTTP/1.1" 500 86398 C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\servers\basehttp.py, None
+ERROR 2023-11-12 20:53:40,014  Internal Server Error: /sign/upgrade/ C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\log.py, (<class 'django.contrib.auth.models.Group.DoesNotExist'>, DoesNotExist('Group matching query does not exist.'), <traceback object at 0x000001DAE252D700>)
+Traceback (most recent call last):
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Танюша\NewProject\newspaper\sign\views.py", line 18, in upgrade_me
+    premium_group = Group.objects.get(name='authors')
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+ERROR 2023-11-12 20:53:40,024  "GET /sign/upgrade/ HTTP/1.1" 500 86265 C:\Users\Танюша\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\servers\basehttp.py, None

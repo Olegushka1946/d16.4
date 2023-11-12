@@ -1,0 +1,8 @@
+INFO 2023-11-12 20:44:17,636 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-12 20:45:57,075 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-12 20:46:08,844 autoreload  Watching for file changes with StatReloader
+WARNING 2023-11-12 20:46:56,276 log  Forbidden (CSRF token missing.): /news/create/
+INFO 2023-11-12 20:53:12,906 autoreload  C:\Users\Танюша\NewProject\newspaper\newspaper\settings.py changed, reloading.
+INFO 2023-11-12 20:53:15,562 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-12 20:54:41,218 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-12 20:55:50,587 autoreload  Watching for file changes with StatReloader
